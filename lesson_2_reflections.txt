@@ -22,3 +22,8 @@ Ans: The diagram gives a clear picture about the master branch and different sub
 Ques 6: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 Ans: Merging two branches allow us to combine the changes performed in two different branches into one. Representing it using a diagram will help us to visualize the entire structure of the project and thus we can get a clear before and after image of the commits during merging.
+
+Ques 7: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Ans: Pros--> Git's Automatic merging gives us the provision to give the entire responsibility to Git to perform the merging operation and we can just sit back and relax. We just create different experimental branches and when we need to merge them to the official master branch we can just type the command: git merge and all the changes performed in the experimental branch will merge into the master branch. This will ofcourse save us the manual overhead which would have been required if we had to merge the codes manually.
+Cons--> Git's automatic merging may sometime lead to creation of a version which is not intended and may introduce a bug which could get noticed if user would have performed the merging operations manually.
