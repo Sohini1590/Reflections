@@ -1,0 +1,3 @@
+Ques 1: When would you want to use a remote repository rather than keeping all your work local?
+
+Ans: I would like to use a remote repository when others are also working on my project so that after I make a commit my changes become visible to other developers and at the same time I can also check the cotribution of others in my project. Also if I am doing a stand alone project and want to share my work with others then I will user remote repository.
