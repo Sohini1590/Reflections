@@ -18,3 +18,7 @@ Ans: Branches will come useful whenever I will want to add a new experimental fe
 Ques 5: How do the diagrams help you visualize the branch structure?
 
 Ans: The diagram gives a clear picture about the master branch and different sub branches and it becomes easy to keep track of the structure of my project.
+
+Ques 6: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Ans: Merging two branches allow us to combine the changes performed in two different branches into one. Representing it using a diagram will help us to visualize the entire structure of the project and thus we can get a clear before and after image of the commits during merging.
