@@ -10,3 +10,7 @@ Using staging area I can look into the changes performed in the files that are r
 Ques 3: How can you use the staging area to make sure you have one commit per logical change?
 
 Ans: I can use staging area to ensure the changes that I will commit by using the two commands: git diff and git diff --staged. git diff helps to find the changes between the files present in working directory and staging area and git diff --staged helps to find the changes between the files present in staging area and the repository. By performing these checks I can ensure that I will have one commit per logical change.
+
+Ques 4: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Ans: Branches will come useful whenever I will want to add a new experimental feature in my project. At that position I will have a master branch which I can use as the official version of my project and the other branch which will allow me to perform any experiment without destroying the working code. Git Branch basically help to keep the project organized by letting me have a main or master branch that contains the working code and other different branches where I can perform development or perform some experiments or try to add some unique features.
