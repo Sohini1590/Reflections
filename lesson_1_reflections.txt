@@ -1,0 +1,31 @@
+Ques 1: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Ans: The tools that help in viewing differences between two versions of a file help me to to compare and identify any changes that have been performed between creation of the two versions of the file. This is much useful especially when the file size is big and manually finding the changes are almost impossible. The tools also help in identifying any bug introduced in the newer version very efficiently without spending much time. This in turns increase the productivity. 
+
+Ques 2: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Ans: Having easy access to entire history of a file will help me to find out any bug introduced in the new file very easily without investing much time. Also it will allow me to identify all the changes that have been made in the file and I can easily compare with them to know in which version which changes were performed. While working on a huge project this can be used to track which change has introduced a bug in the functionality.
+
+Ques 3: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Ans:
+Pros--> The option to manually choose when to commit gives me the flexibility to decide when and at which point I should perform a commit. It allows me to follow the rule of one commit for one functional change each time. My work timing is not predictable. There are days were I write thousand lines of code and again there are days when I only do few line of code changes. Manually committing gives me the option to perform more commits during the days when I work more and to perform few commits during the days when I am not working much. This allows me to always have control over changes that I am performing in my application. In addition this technique also ensures that all my commits will be meaningful and therefore will guarantee that executing the application will not give syntax errors due to untimely commits.
+
+Con--> The only problem of this technique is that if any day I forget to commit my code, then my code will not commit automatically. This can cause problem if I have performed many functional changes since my last commit and any one of the changes has introduced a bug in the system. In such cases it will become very difficult to identify the particular code that has introduced the bug and in worse case this may lead to completely revert backing the changes. 
+
+Ques 4: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Ans: During developing an application most of the files remain dependent on each other. Changes performed in one file can affect the other. Sometimes a change performed in one file can introduce a bug in the functionality of the other. Therefore it is necessary to get the snapshot of all the files during a commit so that it will be easy to track any bug even if the bug is introduced in a file due to changes done in another. This is the reason for which advanced version control systems like Git allows saving multiple files in one commit.
+
+
+Ques 5: How can you use the commands git log and git diff to view the history of files?
+
+Ans: The command git log gives a summary about all the commits performed. Each commit is uniquely identified by a Commit ID. On the other hand the command git diff gives the details of the changes that have been performed between two commits. The syntax to use git diff is: git diff commitID1 commitID2.
+
+Ques 6: How might using version control make you more confident to make changes that could break something?
+
+Ans: Version control gives me the opportunity to explore without the fear of breaking my code and having to start the project afresh. This in turn gives me the option to redesign my project and perform major changes which may bring entire architectural change in the code.
+
+Ques 7: Now that you have your workspace set up, what do you want to try using Git for?
+
+Ans: Now I would like to create my own repository and perform a commit operation.
