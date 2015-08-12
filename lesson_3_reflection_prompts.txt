@@ -1,3 +1,7 @@
 Ques 1: When would you want to use a remote repository rather than keeping all your work local?
 
-Ans: I would like to use a remote repository when others are also working on my project so that after I make a commit my changes become visible to other developers and at the same time I can also check the cotribution of others in my project. Also if I am doing a stand alone project and want to share my work with others then I will user remote repository.
+Ans: I would like to use a remote repository when others are also working on my project so that after I make a commit my changes become visible to other developers and at the same time I can also check the contribution of others in my project. Also if I am doing a standalone project and want to share my work with others then I will user remote repository.
+
+Ques 2: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Ans: The remote repository might contain commits performed by others who are working on the same project and there will be times where I might want my local to contain only the features that I have added to the project to keep it simple and track changes performed only by me easily. Manual saving gives me the provision to pull the changes when I am ready to fetch changes performed by others to my local. It also gives me the flexibility that my code in local will not change automatically. Sometimes if the newer commits performed in the remote repository introduces a bug, I might not want to pull the changes until the bug is fixed and manual pull option gives me the provision to pull the change only when I will want it.
