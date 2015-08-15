@@ -14,4 +14,4 @@ Branch --> Branches happen on a single repository and is performed when some exp
 
 Ques 4: What is the benefit of having a copy of the last known state of the remote stored locally?
 
-Ans: When working in a collaborative project there will be times when I will perform a commit in my local and my other colleague will perform another commit in GitHub. In those cases having a copy of the last known state of the remote stored in my local gives the flexibility to merge both the commits performed by me and my colleague together. It also allows me to know the state of my local and remote repository.
+Ans: When working in a collaborative project there will be times when I will perform a commit in my local and my other colleague will perform another commit in GitHub. In those cases having a copy of the last known state of the remote stored in my local gives the flexibility to merge both the commits performed by me and my colleague together. It also allows me to know the state of my local and remote repository. Along with this if I want to go off-line I can fetch all the changes performed in the remote repository to my local and yet not merge it.
