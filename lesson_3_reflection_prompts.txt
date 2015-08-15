@@ -8,6 +8,10 @@ Ans: The remote repository might contain commits performed by others who are wor
 
 Ques 3: Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
-Fork --> Github allows user to copy some others repository directly on the GitHub server without pulling down the code in local machine first. It is used only in the context of GitHub. Forking is usually performed when user does not have access to modify the original GitHun repository.
+Fork --> GitHub allows user to copy some others repository directly on the GitHub server without pulling down the code in local machine first. It is used only in the context of GitHub. Forking is usually performed when user does not have access to modify the original GitHun repository.
 Clone --> Cloning involves taking an existing repository and making one exactly like it. The original repository could either be remote or local.
-Branch --> Brnaches happen on a single repsitory and is performed when some experimental feature needs to be added that we currently do not want to add in the official code. Branches can be pushed or pulled.
+Branch --> Branches happen on a single repository and is performed when some experimental feature needs to be added that we currently do not want to add in the official code. Branches can be pushed or pulled.
+
+Ques 4: What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Ans: When working in a collaborative project there will be times when I will perform a commit in my local and my other colleague will perform another commit in GitHub. In those cases having a copy of the last known state of the remote stored in my local gives the flexibility to merge both the commits performed by me and my colleague together. It also allows me to know the state of my local and remote repository.
